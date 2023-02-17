@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Montserrat:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@300;400&family=Rubik&family=Secular+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+header {
+    background-image: url(images/bg-image.png);
+    height: 100vh;
+    width: 100%;
+    background-position: right;
+    background-size: cover;
+    position: relative;
+    padding-top: 1px;
+}
+
+nav {
+    display: flex;
+    padding: 10px 120px;
+    padding-top: 15px;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    background-color: transparent;
+    top: 0;
+    transition: 0.5s all;
+}
+
+.logo {
+    width: 115px;
+    height: 45px;
+}
+
+.nav-list {
+    display: flex;
+}
+
+.list-item {
+    margin-left: 25px;
+    display: grid;
+    place-items: center;
+    background-color: #D9D9D914;
+    width: 80px;
+    height: 28px;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.active {
+    background-color: #D9D9D945;
+}
+
+.a {
+    text-decoration: none;
+    color: white;
+    font-size: 10px;
+    font-family: 'Poppins', sans-serif;
+    width: 80px;
+    height: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s all;
+}
+
+.a:focus {
+    background-color: #D9D9D945;
+}
+
+.book-lesson-btn {
+    border: 1px solid #ffffff69;
+    background-color: transparent;
+    border-radius: 2px;
+    color: white;
+    height: 32px;
+    width: 140px;
+    font-family: 'Rubik', sans-serif;
+    cursor: pointer;
+    box-shadow: 0.5px 0.5px 1px #ffffff30;
+    transition: 0.5s all;
+}
+
+.book-lesson-btn:hover {
+    background-color: #D9D9D945;
+    border: 1px solid #ffffff69;
+}
+
+.home-page {
+    margin-left: 120px;
+    margin-top: 210px;
+    color: white;
+
+}
+
+.home-h1 {
+    line-height: 42px;
+    font-size: 35px;
+    font-family: 'Lato', sans-serif;
+}
+
+.home-p {
+    font-family: 'Montserrat', sans-serif;
+    color: #E9E9E9;
+    font-size: 15px;
+    padding-top: 20px;
+}
+
+.book-lesson-btn2 {
+    border: 1px solid #ffffff69;
+    background-color: #FEC671;
+    border-radius: 2px;
+    color: #461851;
+    height: 32px;
+    width: 140px;
+    cursor: pointer;
+    margin-top: 50px;
+    font-weight: 500;
+    font-family: 'Rubik', sans-serif;
+    box-shadow: 0.5px 0.5px 1px #ffffff30;
+    transition: 0.5s all;
+}
+
+.book-lesson-btn2:hover {
+    background-color: #D9D9D945;
+    color: white;
+}
+
+.about-page {
+    background-image: url(images/about\ us.png);
+    background-size: cover;
+    background-position: top;
+    height: 100vh;
+    width: 100%;
+}
+
+.about {
+    padding-top: 120px;
+    margin: 0 110px;
+}
+
+.about-p1 {
+    color: #6F4D78;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 19px;
+}
+
+.about-h2 {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    color: #000000;
+    padding-top: 60px;
+}
+
+.about-p2 {
+    font-weight: 400;
+    font-size: 15px;
+    padding-top: 20px;
+    font-family: 'Roboto', sans-serif;
+    color: #4B4B4B;
+}
+
+.book-lesson-btn3 {
+    border: 0;
+    background-color: #734486;
+    border-radius: 2px;
+    color: #FFFFFF;
+    height: 32px;
+    width: 140px;
+    cursor: pointer;
+    margin-top: 50px;
+    font-weight: 500;
+    font-family: 'Rubik', sans-serif;
+    box-shadow: 0.5px 0.5px 1px #ffffff30;
+    transition: 0.5s all;
+}
