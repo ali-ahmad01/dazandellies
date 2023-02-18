@@ -8,6 +8,10 @@ window.addEventListener('scroll', function () {
     }
 });
 
+window.addEventListener('load', function () {
+    nav.style.backgroundColor = "#461851";
+})
+
 const carousel = document.querySelector(".carousel"),
 firstImg = carousel.querySelectorAll("img")[0],
 arrowIcons = document.querySelectorAll(".wrapper i");
