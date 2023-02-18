@@ -1,0 +1,116 @@
+.side-nav {
+    width: 100%;
+    z-index: 3;
+    background-color: #6e2481;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 4rem;
+    display: none;
+}
+
+.side-nav-list {
+    padding-left: 80px;
+    padding-top: 100px;
+}
+
+.side-list-item {
+    list-style: none;
+    margin-top: 20px;
+}
+
+
+.side-a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+.side-book-lesson-btn {
+    border: 1px solid #ffffff69;
+    background-color: transparent;
+    border-radius: 2px;
+    color: white;
+    height: 32px;
+    width: 140px;
+    font-family: 'Rubik', sans-serif;
+    cursor: pointer;
+    box-shadow: 0.5px 0.5px 1px #ffffff30;
+    transition: 0.5s all;
+    margin-top: 40px;
+    margin-left: -30px;
+}
+
+.side-book-lesson-btn:hover {
+    background-color: #D9D9D945;
+    border: 1px solid #ffffff69;
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 950px) {
+    header {
+        background-image: url(images/side-header.png);
+        background-position: center;
+        background-size: cover;
+        height: 100vh;
+        width: 100%;
+    }
+
+    nav {
+        padding: 10px 30px;
+    }
+
+    .list-item {
+        display: none;
+    }
+
+    .book-lesson-btn {
+        display: none;
+    }
+
+    .hamburger-menu {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .carousel img {
+        width: calc(100% / 2);
+    }
+
+    .carousel video {
+        width: calc(100%/2);
+    }
+}
+
+@media screen and (max-width: 550px) {
+    header {
+        height: 70vh;
+    }
+
+    .home-page {
+        margin-left: 30px;
+        margin-top: 150px;
+    }
+
+    .home-h1 {
+        line-height: 30px;
+        font-size: 25px;
+    }
+
+    .carousel img {
+        width: 100%;
+    }
+
+    .carousel video {
+        width: 100%;
+    }
+}

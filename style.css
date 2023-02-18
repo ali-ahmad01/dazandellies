@@ -18,6 +18,7 @@ header {
 }
 
 nav {
+    z-index: 4;
     display: flex;
     padding: 10px 120px;
     padding-top: 15px;
@@ -96,6 +97,30 @@ nav {
 .book-lesson-btn:hover {
     background-color: #D9D9D945;
     border: 1px solid #ffffff69;
+}
+
+.hamburger-menu {
+    background-color: transparent;
+    border: 0;
+    color: white;
+    font-size: 40px;
+    padding-top: 8px;
+    position: absolute;
+    right: 45px;
+    display: none;
+    z-index: 50;
+}
+
+.hamburger-menu-close {
+    background-color: transparent;
+    border: 0;
+    color: white;
+    font-size: 40px;
+    padding-top: 8px;
+    position: absolute;
+    right: 45px;
+    display: none;
+    z-index: 50;
 }
 
 .home-page {
