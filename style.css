@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Montserrat:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@300;400&family=Rubik&family=Secular+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Montserrat:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700&family=Rubik&family=Secular+One&display=swap');
 
 * {
     margin: 0;
@@ -8,7 +8,7 @@
 }
 
 header {
-    background-image: url(images/bg-image.png);
+    background-image: url(images/header-image.png);
     height: 100vh;
     width: 100%;
     background-position: right;
@@ -48,10 +48,23 @@ nav {
     height: 28px;
     border-radius: 2px;
     cursor: pointer;
+    position: relative;
 }
 
-.active {
-    background-color: #D9D9D945;
+.list-item::after {
+    content: '';
+    background-color: white;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 1px;
+    opacity: 75%;
+    transition: 0.5s all;
+}
+
+.list-item:hover:after {
+    width: 100%;
 }
 
 .a {
@@ -65,10 +78,6 @@ nav {
     justify-content: center;
     align-items: center;
     transition: 0.5s all;
-}
-
-.a:focus {
-    background-color: #D9D9D945;
 }
 
 .book-lesson-btn {
@@ -130,7 +139,7 @@ nav {
 }
 
 .about-page {
-    background-image: url(images/about\ us.png);
+    background-image: url(images/about-image.png);
     background-size: cover;
     background-position: top;
     height: 100vh;
@@ -179,4 +188,280 @@ nav {
     font-family: 'Rubik', sans-serif;
     box-shadow: 0.5px 0.5px 1px #ffffff30;
     transition: 0.5s all;
+}
+
+.contact-page {
+    background-image: url(images/contact-image.png);
+    background-position: top;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+}
+
+.contact {
+    padding-top: 120px;
+    margin: 0 180px;
+}
+
+.contact-p1 {
+    color: #6F4D78;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+}
+
+.contact-h2 {
+    color: #404040;
+    padding-top: 40px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.contact-p2 {
+    color: #818181;
+    padding-top: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    word-spacing: 2px;
+    font-size: 14px;
+}
+
+.contact-span1 {
+    color: #A44FBC;
+}
+
+.contact-p3 {
+    padding-top: 50px;
+    color: #585858;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.card-1 {
+    margin-top: 20px;
+    display: flex;
+}
+
+.contact-img1 {
+    width: 27px;
+    height: 30px;
+}
+
+.contact-p4 {
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    padding-left: 39px;
+    font-style: normal;
+    font-size: 12px;
+    line-height: 18px;
+    color: #000000;
+}
+
+.contact-span2 {
+    color: #787878;
+    font-weight: 500;
+}
+
+.card-2 {
+    margin-top: 33px;
+    display: flex;
+}
+
+.contact-img2 {
+    width: 27px;
+    height: 30px;
+}
+
+.contact-p5 {
+    color: #FFFFFF;
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    padding-left: 39px;
+    font-style: normal;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.contact-img3 {
+    width: 27px;
+    height: 30px;
+}
+
+.contact-span3 {
+    color: #CFCFCF;
+    font-weight: 500;
+}
+
+.card-3 {
+    margin-top: 20px;
+    display: flex;
+}
+
+.form {
+    width: 405px;
+    height: 460px;
+    margin-left: -65px;
+    margin-top: 110px;
+    background: #BD5FD6;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.19);
+    border-radius: 5px;
+    padding: 30px 50px;
+}
+
+.contact-h1 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 23px;
+    font-family: 'Roboto', sans-serif;
+    color: #FFFFFF;
+}
+
+.contact-p6 {
+    padding-top: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    color: #292929;
+}
+
+.contact-input {
+    margin-top: 5px;
+    border: 0;
+    width: 312px;
+    height: 32px;
+    padding: 0 10px;
+    background: #EAE7FB;
+    border-radius: 2px;
+    outline: none;
+}
+
+.contact-input2 {
+    width: 312px;
+    height: 126px;
+    border: 0;
+    padding: 7px 7px;
+    outline: none;
+    margin-top: 5px;
+    background: #EAE7FB;
+    border-radius: 3px;
+    resize: none;
+}
+
+.contact-btn {
+    cursor: pointer;
+    margin-top: 20px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #FFFFFF;
+    width: 139px;
+    height: 34px;
+    border: 0;
+    background: #581F66;
+    border-radius: 2px;
+}
+
+.body-wrapper {
+    display: flex;
+    flex-direction: column;
+    padding: 0 35px;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-image: url(images/Clients.png);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+.our-clients {
+    margin-bottom: 4rem;
+    font-size: 20px;
+
+}
+
+.wrapper {
+    display: flex;
+    max-width: 650px;
+    position: relative;
+}
+
+.wrapper i {
+    top: 50%;
+    height: 44px;
+    width: 44px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1.15rem;
+    position: absolute;
+    text-align: center;
+    line-height: 44px;
+    background: #c43de5;
+    border-radius: 50%;
+    transform: translateY(-50%);
+    transition: 0.1s linear;
+}
+
+.wrapper i:active {
+    transform: translateY(-50%) scale(0.9);
+}
+
+.wrapper i:hover {
+    background: #e8aef6;
+    color: #b54dcf;
+}
+
+.wrapper i:first-child {
+    left: -22px;
+    display: none;
+}
+
+.wrapper i:last-child {
+    right: -22px;
+}
+
+.wrapper .carousel {
+    font-size: 0px;
+    cursor: pointer;
+    overflow: hidden;
+    white-space: nowrap;
+    scroll-behavior: smooth;
+
+}
+
+.carousel.dragging {
+    cursor: grab;
+    scroll-behavior: auto;
+}
+
+.carousel.dragging img {
+    pointer-events: none;
+}
+
+.carousel img {
+    height: 250px;
+
+    object-fit: cover;
+    user-select: none;
+
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    margin-left: 20px;
+    width: calc(100% / 3);
+}
+
+
+.carousel img:first-child {
+    margin-left: 0px;
+}
+
+.form1 {
+    margin-top: 20px;
 }
