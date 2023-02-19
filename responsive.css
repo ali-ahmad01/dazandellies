@@ -1,3 +1,4 @@
+/* Hamburger menu */
 .side-nav {
     width: 100%;
     z-index: 3;
@@ -41,6 +42,8 @@
     transition: 0.5s all;
     margin-top: 40px;
     margin-left: -30px;
+    display: grid;
+    place-items: center;
 }
 
 .side-book-lesson-btn:hover {
@@ -54,6 +57,102 @@
 
 
 
+
+@media screen and (max-width: 1190px) {
+    .about-card-1 {
+        margin-top: -153px;
+    }
+
+    .about-card-3 {
+        position: absolute;
+        margin-top: 220px;
+        margin-left: 100px;
+    }
+
+    .contact-page {
+        flex-direction: column;
+        height: 200vh;
+        text-align: center;
+    }
+
+    .contact-page {
+        background-image: url(images/contact-us-res.png);
+        background-position: top;
+        position: relative;
+    }
+
+
+    .contact {
+        margin: 0 30px;
+    }
+
+    .contact-p1 {
+        color: rgb(198, 198, 198);
+    }
+
+    .contact-h2 {
+        color: white;
+    }
+
+    .contact-p2 {
+        color: rgb(207, 207, 207);
+        line-height: 20px;
+    }
+
+    .contact-span1 {
+        color: #eec8f8;
+    }
+
+    .contact-p3 {
+        color: rgb(207, 207, 207);
+    }
+
+    .cards {
+        margin-left: 40%;
+    }
+
+    .card-1 {
+        margin-left: -60px;
+        margin-top: 50px;
+    }
+
+    .location-icon {
+        color: white;
+    }
+
+    .contact-p4 {
+        color: white;
+    }
+
+    .contact-span2 {
+        color: white;
+    }
+
+    .card-2 {
+        margin-left: -60px;
+    }
+
+    .card-3 {
+        margin-left: -60px;
+    }
+
+    .form {
+        margin-left: 15px;
+        padding: 30px 10px;
+        width: 300px;
+        position: absolute;
+        bottom: 188px;
+        left: 32px;
+    }
+
+    .contact-input {
+        width: 267px;
+    }
+
+    .contact-input2 {
+        width: 267px;
+    }
+}
 
 @media screen and (max-width: 950px) {
     header {
@@ -82,12 +181,20 @@
 }
 
 @media screen and (max-width: 900px) {
+    .about {
+        margin: 0 30px;
+    }
+
+    .about-cards {
+        margin-left: 10px;
+    }
+
     .carousel img {
         width: calc(100% / 2);
     }
 
     .carousel video {
-        width: calc(100%/2);
+        width: calc(100% / 2);
     }
 }
 
@@ -105,6 +212,55 @@
         line-height: 30px;
         font-size: 25px;
     }
+
+    /* ----about-us----- */
+    .about-page {
+        flex-direction: column;
+        background-image: url(images/about-us-res.png);
+        height: 175vh;
+        text-align: center;
+    }
+
+    .about {
+        padding-top: 120px;
+        margin: 0px 36px;
+    }
+
+    .about-h2 {
+        padding-top: 25px;
+    }
+
+    .about-p2 {
+        font-size: 12px;
+    }
+
+    .book-lesson-btn3 {
+        margin-top: 25px;
+        margin-left: 74px;
+    }
+
+    .about-cards {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        padding-top: 200px;
+        margin-left: 80px;
+    }
+
+    .about-card-1 {
+        margin-bottom: 150px;
+    }
+
+    .about-card-3 {
+        margin-top: 205px;
+        margin-left: 0px;
+    }
+
+    .body-wrapper {
+        min-height: 60vh;
+    }
+
+
 
     .carousel img {
         width: 100%;

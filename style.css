@@ -5,6 +5,7 @@
     padding: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
+    text-decoration: none;
 }
 
 header {
@@ -92,6 +93,8 @@ nav {
     cursor: pointer;
     box-shadow: 0.5px 0.5px 1px #ffffff30;
     transition: 0.5s all;
+    display: grid;
+    place-items: center;
 }
 
 .book-lesson-btn:hover {
@@ -156,6 +159,8 @@ nav {
     font-family: 'Rubik', sans-serif;
     box-shadow: 0.5px 0.5px 1px #ffffff30;
     transition: 0.5s all;
+    display: grid;
+    place-items: center;
 }
 
 .book-lesson-btn2:hover {
@@ -192,10 +197,10 @@ nav {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.28);
     border-radius: 2px;
     margin-top: -30px;
+    text-align: center;
 }
 
 .about-icon-1 {
-    padding-left: 40%;
     padding-top: 5%;
 }
 
@@ -209,22 +214,21 @@ nav {
 }
 
 .about-card-content-1 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: grid;
     font-style: normal;
     font-weight: 400;
     font-size: 13px;
     line-height: 16px;
     color: #000000;
     text-align: center;
-    width: 172px;
+    width: 160px;
     height: 67px;
     background: #EBE4E4;
     border-radius: 2px;
     font-family: 'Lato', sans-serif;
-    margin-left: 5%;
+    margin-left: 8%;
     margin-top: 8%;
+    place-items: center;
 }
 
 .about-card-2 {
@@ -234,10 +238,11 @@ nav {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.28);
     border-radius: 2px;
     margin-top: -160px;
+    text-align: center;
+
 }
 
 .about-icon-2 {
-    padding-left: 40%;
     padding-top: 5%;
 }
 
@@ -251,22 +256,21 @@ nav {
 }
 
 .about-card-content-2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: grid;
     font-style: normal;
     font-weight: 400;
     font-size: 13px;
     line-height: 16px;
     color: #000000;
     text-align: center;
-    width: 172px;
+    width: 160px;
     height: 67px;
     background: #EBE4E4;
     border-radius: 2px;
     font-family: 'Lato', sans-serif;
-    margin-left: 5%;
+    margin-left: 8%;
     margin-top: 8%;
+    place-items: center;
 }
 
 .about-card-3 {
@@ -276,10 +280,10 @@ nav {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.28);
     border-radius: 2px;
     margin-top: -248px;
+    text-align: center;
 }
 
 .about-icon-3 {
-    padding-left: 40%;
     padding-top: 5%;
 }
 
@@ -293,22 +297,21 @@ nav {
 }
 
 .about-card-content-3 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: grid;
     font-style: normal;
     font-weight: 400;
     font-size: 13px;
     line-height: 16px;
     color: #000000;
     text-align: center;
-    width: 172px;
+    width: 160px;
     height: 67px;
     background: #EBE4E4;
     border-radius: 2px;
     font-family: 'Lato', sans-serif;
-    margin-left: 5%;
+    margin-left: 8%;
     margin-top: 8%;
+    place-items: center;
 }
 
 .about-p1 {
@@ -348,6 +351,8 @@ nav {
     font-family: 'Rubik', sans-serif;
     box-shadow: 0.5px 0.5px 1px #ffffff30;
     transition: 0.5s all;
+    display: grid;
+    place-items: center;
 }
 
 .contact-page {
@@ -408,9 +413,8 @@ nav {
     display: flex;
 }
 
-.contact-img1 {
-    width: 27px;
-    height: 30px;
+.location-icon {
+    font-size: 37px;
 }
 
 .contact-p4 {
@@ -429,7 +433,7 @@ nav {
 }
 
 .card-2 {
-    margin-top: 33px;
+    margin-top: 18px;
     display: flex;
 }
 

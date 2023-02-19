@@ -30,6 +30,12 @@ window.addEventListener('load', function () {
     nav.style.backgroundColor = "#461851";
 })
 
+function menuClose() {
+    menu_open[0].style.display = "block";
+    menu_close[0].style.display = "none";
+    sideNav[0].style.display = "none";
+}
+
 // Client slider
 const carousel = document.querySelector(".carousel"),
     firstImg = carousel.querySelectorAll("img")[0],

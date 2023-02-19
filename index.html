@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <link rel="icon" href="images/logo.png">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="responsive.css">
@@ -28,18 +28,22 @@
                 <li class="list-item"><a class="a" href="#Contact">Contact</a></li>
                 <li class="list-item"><a class="a" href="#Our-Clients">Our Clients</a></li>
             </div>
-            <button type="button" class="book-lesson-btn">Book a Lesson</button>
-            <button type="button" onclick="openSideMenu()" class="hamburger-menu"><ion-icon name="menu"></ion-icon></button>
-            <button type="button" onclick="closeSideMenu()" class="hamburger-menu-close"><ion-icon name="close"></ion-icon></button>
+            <a href="#Contact" class="book-lesson-btn">Book a Lesson</a>
+            <button type="button" onclick="openSideMenu()" class="hamburger-menu"><ion-icon
+                    name="menu"></ion-icon></button>
+            <button type="button" onclick="closeSideMenu()" class="hamburger-menu-close"><ion-icon
+                    name="close"></ion-icon></button>
         </nav>
 
         <nav class="side-nav animate__animated animate__slideInDown">
             <div class="side-nav-list">
-                <li class="side-list-item"><a class="side-a" href="#Home">Home</a></li>
-                <li class="side-list-item"><a class="side-a" href="#About">About Us</a></li>
-                <li class="side-list-item"><a class="side-a" href="#Contact">Contact</a></li>
-                <li class="side-list-item"><a class="side-a" href="#Our-Clients">Our Clients</a></li>
-                <button type="button" class="side-book-lesson-btn">Book a Lesson</button>
+                <li class="side-list-item"><a class="side-a" onclick="menuClose()" href="#Home">Home</a></li>
+                <li class="side-list-item"><a class="side-a" onclick="menuClose()" href="#About">About Us</a></li>
+                <li class="side-list-item"><a class="side-a" onclick="menuClose()" href="#Contact">Contact</a></li>
+                <li class="side-list-item"><a class="side-a" onclick="menuClose()" href="#Our-Clients">Our Clients</a>
+                </li>
+                <a href="#Contact" onclick="menuClose()" onclick="menuClose()" class="side-book-lesson-btn">Book a
+                    Lesson</a>
             </div>
         </nav>
 
@@ -47,7 +51,7 @@
         <div class="home-page">
             <h1 class="home-h1">DAZ AND ELLIE’S<br>DRIVER TRAINING</h1>
             <p class="home-p">Local Professional Driving School in Taree, NSW</p>
-            <button type="button" class="book-lesson-btn2">Book a Lesson</button>
+            <a href="#Contact" class="book-lesson-btn2">Book a Lesson</a>
         </div>
     </header>
 
@@ -58,7 +62,7 @@
             <h2 class="about-h2">Over 7 Years of<br>Experience</h2>
             <p class="about-p2">We are local professional driving instructors offering<br>a safe and relaxed learning
                 environment.<br>We can tailor lessons according to your personal<br>requirement.</p>
-            <button type="button" class="book-lesson-btn3">Book Now</button>
+            <a href="#Contact" class="book-lesson-btn3">Book Now</a>
         </div>
 
         <!-- About Card -->
@@ -95,23 +99,24 @@
                     Messenger</a><br>You can also drop message by filling in the form.<br> We will get in touch with
                 you soon.</p>
             <p class="contact-p3">Daz and Ellie’s Driving School</p>
-            <div class="card-1">
-                <img src="images/contact-image1.png" class="contact-img1">
-                <p class="contact-p4"><span class="contact-span2">Address:</span><br>Taree, NSW, Australia</p>
-            </div>
-            <div class="card-2">
-                <img src="images/contact-image2.png" class="contact-img2">
-                <p class="contact-p5"><span class="contact-span3">Phone:</span><br>0401929752</p>
-            </div>
-            <div class="card-3">
-                <img src="images/contact-image3.png" class="contact-img2">
-                <p class="contact-p5"><span class="contact-span3">Email:</span><br>dazandellies@gmail.com</p>
+            <div class="cards">
+                <div class="card-1">
+                    <p class="location-icon"><ion-icon name="location-outline"></ion-icon></p>
+                    <p class="contact-p4"><span class="contact-span2">Address:</span><br>Taree, NSW, Australia</p>
+                </div>
+                <div class="card-2">
+                    <img src="images/contact-image2.png" class="contact-img2 img">
+                    <p class="contact-p5"><span class="contact-span3">Phone:</span><br>0401929752</p>
+                </div>
+                <div class="card-3">
+                    <img src="images/contact-image3.png" class="contact-img2">
+                    <p class="contact-p5"><span class="contact-span3">Email:</span><br>dazandellies@gmail.com</p>
+                </div>
             </div>
         </div>
-
         <!-- Contact Form -->
         <div class="form">
-            <form action="https://formsubmit.co/alamgirsyed11@gmail.com" method="POST">
+            <form action="https://formsubmit.co/dazandellies@gmail.com" method="POST">
                 <h1 class="contact-h1">Send us a message</h1>
                 <div class="form1">
                     <label class="contact-p6" for="name">Full name*</label>
