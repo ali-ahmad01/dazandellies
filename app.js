@@ -61,7 +61,8 @@ arrowIcons.forEach(icon => {
 
 const autoSlide = () => {
     // if there is no image left to scroll then return from here
-    if (carousel.scrollLeft - (carousel.scrollWidth - carousel.clientWidth) > -1 || carousel.scrollLeft <= 0) return;
+    if (carousel.scrollLeft == (carousel.scrollWidth - carousel.clientWidth)) return;
+    // if (carousel.scrollLeft - (carousel.scrollWidth - carousel.clientWidth) > -1 || carousel.scrollLeft <= 0) return;
 
     positionDiff = Math.abs(positionDiff); // making positionDiff value to positive
     let firstImgWidth = firstImg.clientWidth + 14;

@@ -192,10 +192,6 @@
     .carousel img {
         width: calc(100% / 2);
     }
-
-    .carousel video {
-        width: calc(100% / 2);
-    }
 }
 
 @media screen and (max-width: 550px) {
@@ -263,10 +259,6 @@
 
 
     .carousel img {
-        width: 100%;
-    }
-
-    .carousel video {
         width: 100%;
     }
 }
