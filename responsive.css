@@ -178,8 +178,18 @@
     .hamburger-menu {
         display: block;
     }
+    
     .cards-background .card-1,.card-2,.card-3 {
         padding-inline: 130px;
+    }
+
+    .mw-container {
+        margin-top: 10px;;
+    }
+
+    footer {
+        display: block;
+        padding: 0 20px;
     }
 }
 
