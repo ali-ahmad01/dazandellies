@@ -178,6 +178,9 @@
     .hamburger-menu {
         display: block;
     }
+    .cards-background .card-1,.card-2,.card-3 {
+        padding-inline: 130px;
+    }
 }
 
 @media screen and (max-width: 900px) {
