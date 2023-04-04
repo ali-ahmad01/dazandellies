@@ -695,6 +695,10 @@ nav {
     margin-top: 20px;
 }
 
+.form1 textarea {
+    font-family: 'Roboto', sans-serif;
+}
+
 footer {
     display: flex;
     justify-content: space-between;
